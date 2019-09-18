@@ -1,0 +1,23 @@
+{
+  "name": "signal-server-backend",
+  "version": "1.0.0",
+  "description": "Server part of intention signal server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://millerrabin@bitbucket.org/intentionteam/signal-server-backend.git"
+  },
+  "author": "millerrabin",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/intentionteam/signal-server-backend#readme",
+  "dependencies": {
+    "koa": "^2.8.1",
+    "koa-body": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "pg": "^7.12.1"
+  }
+}
