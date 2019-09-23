@@ -8,8 +8,13 @@ const config = require('./config.js');
 const offers = require('./modules/offers.js');
 const { Pool } = require('pg');
 
+const response = require('./middlewares/response.js');
+const responseTime = require('./middlewares/responseTime.js');
+
 let application = new koa();
 application.use(cors());
+application.use(response.koa);
+application.use(responseTime.koa);
 
 offers.addController(application, '/api/offers');
 

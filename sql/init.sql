@@ -10,6 +10,10 @@ drop database postgres;
 create table offers
 (
     id serial primary key,
-    offer text,
-    ip cidr
+    offer text not null,
+    ip cidr not null
 )
+
+insert into offers(offer, ip)
+
+select * from offers;
