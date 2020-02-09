@@ -1,7 +1,7 @@
 const productionSettings = {
     ssl: {
-        key: '/etc/letsencrypt/live/signal.intention.tech/privkey.pem',
-        cert: '/etc/letsencrypt/live/signal.intention.tech/fullchain.pem'
+        key: '/etc/letsencrypt/live/signal.raintech.su/privkey.pem',
+        cert: '/etc/letsencrypt/live/signal.raintech.su/fullchain.pem'
     }
 };
 
