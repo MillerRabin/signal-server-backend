@@ -14,11 +14,11 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/intentionteam/signal-server-backend#readme",
   "dependencies": {
-    "koa": "^2.8.1",
-    "koa-body": "^4.1.1",
-    "koa-router": "^7.4.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
     "koa2-cors": "^2.0.6",
-    "pg": "^7.12.1",
-    "ws": "^7.1.2"
+    "pg": "^8.7.3",
+    "ws": "^8.5.0"
   }
 }
